@@ -2,7 +2,7 @@
 #include <bits/stdc++.h> 
 using namespace std;
 
-class findcombination
+class findcombination 
 {
 private:
      int data,orfa[20], factors[20], comb[40][20];
@@ -12,7 +12,7 @@ public:
      void getInput()
      {
           cout<< " Enter a no. ";
-          cin>>data;
+          cin>>data; 
      } 
      
      void factorfind()
