@@ -1,3 +1,4 @@
+    
 #include <iostream>
 #include <bits/stdc++.h> 
 
@@ -14,7 +15,7 @@ public:
 
      void getInput()
      {
-          gets(data); 
+          cin.get(data, 20); 
           len= strlen(data);
           data[len]=' ';
           data[++len]='\0'; 
@@ -23,6 +24,8 @@ public:
                if(data[i]==' ')
                {
                     checkMax(m);
+                    //cout<<"String :"<<input;
+                    //cout<<"length :" <<m<<endl;
                     m=0;
                     
                }
@@ -54,6 +57,7 @@ public:
                x=x-48;
           }
           base=x+1;
+          //cout<<" base : "<<base;
           convert(m1);
      }
      
@@ -94,6 +98,7 @@ public:
                {
                     x=count[i];
                }
+               //cout<<"|"<<count[i]<<"|";
           }
           cout<<x;
      }
