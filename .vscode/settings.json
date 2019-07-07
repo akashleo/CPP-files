@@ -2,6 +2,7 @@
      "C_Cpp.errorSquiggles": "Enabled",
      "files.associations": {
           "string.h": "c",
-          "iostream": "cpp"
+          "iostream": "cpp",
+          "*.tcc": "cpp"
      }
 }
